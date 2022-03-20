@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Click</string>
+    <string name="_0">0</string>
+    <string name="eda">Двоек по математике</string>
+    <string name="textView_text">Количество двоек по математике</string>
+</resources>

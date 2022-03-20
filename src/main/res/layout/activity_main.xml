@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/food"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="419dp"
+        android:layout_height="101dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/appbar_scrolling_view_behavior"
+        android:onClick="onClickGet2"
+        android:text="получить двойку"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/countView"
+        app:layout_constraintVertical_bias="0.609"
+        app:rippleColor="#0B9DAF"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/countView"
+        android:layout_width="186dp"
+        android:layout_height="186dp"
+        android:background="@drawable/circle"
+        android:text="@string/_0"
+        android:textColor="#795548"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_text"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
